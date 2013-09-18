@@ -2,9 +2,9 @@ require 'formula'
 
 class Pass < Formula
   homepage 'https://github.com/madebymany/password-store'
-  url 'https://github.com/madebymany/password-store/archive/v2.0.0-pre1.tar.gz'
-  sha256 '7dd04061204158ca03f4af73ba93f5600cf40769eba4972079edc8e699a8fbec'
-  version '2.0.0-pre1'
+  version '2.0.0-pre2'
+  url 'https://github.com/madebymany/password-store/archive/v2.0.0-pre2.tar.gz'
+  sha256 'cc194b12b530fecdb3a1b94c93f0e0c3308a90ac289452af51e96777bf758b5d'
 
   head 'https://github.com/madebymany/password-store.git'
 

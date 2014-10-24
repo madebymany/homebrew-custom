@@ -2,8 +2,8 @@ require 'formula'
 
 class Pharod < Formula
   homepage 'https://github.com/madebymany/pharod'
-  version '1414164128'
-  sha256 'aff415164d5d16b3ee25a4500a9975b383a207bcd1f1ea3365ebe98e2d93003a'
+  version '1414167806'
+  sha256 '7da231beb58a5f71c5a0be09ca1599c6b5e32d0d8824504c6c661cfe4cc9a4da'
   url "https://mxm-golang-binaries.s3.amazonaws.com/pharod/pharod-#{version}.tar.gz"
 
   head 'https://github.com/madebymany/moltar.git'
@@ -11,6 +11,11 @@ class Pharod < Formula
   def install
     bin.install "pharod"
     bin.install "pharod-start"
+    bin.install "pharod-configure-resolver"
+  end
+
+  def post_install
+    system "pharod-configure-resolver"
   end
 
   def caveats; <<-EOS.undent

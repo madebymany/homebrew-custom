@@ -2,8 +2,8 @@ require 'formula'
 
 class Pharod < Formula
   homepage 'https://github.com/madebymany/pharod'
-  version '1414409011'
-  sha256 'fdecc692928bea108f9f947948652d433766cf7a8a53e64f9006a3d07b1ea29f'
+  version '1414412750'
+  sha256 '398b644fdd376ad1a4aa2744a2458e5a47073f2a056876f02180eed36a4e2437'
   url "https://mxm-golang-binaries.s3.amazonaws.com/pharod/pharod-#{version}.tar.gz"
 
   head 'https://github.com/madebymany/moltar.git'

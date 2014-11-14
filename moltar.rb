@@ -2,8 +2,8 @@ require 'formula'
 
 class Moltar < Formula
   homepage 'https://github.com/madebymany/moltar'
-  version '1413806214'
-  sha256 'bcc258af8910adf3a7a33373c0dada3dae12cef35ed5c96beaf840c4ba251f1a'
+  version '1415898399'
+  sha256 '1874f1a69066f0c53d115b8bf7c081a8c4acf5e71622168204b1f5d0b93b4d9c'
   url "https://mxm-golang-binaries.s3.amazonaws.com/moltar/moltar-#{version}.gz"
 
   head 'https://github.com/madebymany/moltar.git'

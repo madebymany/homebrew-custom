@@ -5,9 +5,9 @@
 class Kmsenv < Formula
   desc "Manage environment variables using AWS KMS and S3"
   homepage "https://github.com/madebymany/kmsenv"
-  url "https://github.com/madebymany/kmsenv/archive/0.0.1.tar.gz"
-  version "0.0.1"
-  sha256 "3ee20f39d8fe3edfc6059fc6543362cf6572674efeff1d3a58fe098b514803b0"
+  url "https://github.com/madebymany/kmsenv/archive/0.0.2.tar.gz"
+  version "0.0.2"
+  sha256 "fbb360f46214506e15e1fabedeae8205649f3e43959f62fc4ef5850b09b2e5f2"
 
   depends_on "awscli"
 

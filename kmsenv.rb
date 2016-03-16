@@ -7,7 +7,7 @@ class Kmsenv < Formula
   homepage "https://github.com/madebymany/kmsenv"
   url "https://github.com/madebymany/kmsenv/archive/v.0.0.6.tar.gz"
   version "0.0.6"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "c281b9dd2c2f5d71cb6f53a85b81977851688ee6fb743bde5d56ff8de210b870"
 
   depends_on "awscli"
 

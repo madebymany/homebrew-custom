@@ -6,8 +6,6 @@ class Pharod < Formula
   sha256 '627615c7533ddd9741609d967059677afb374bf1764dfe1cd6d980764523803b'
   url "https://mxm-golang-binaries.s3.amazonaws.com/pharod/pharod-#{version}.tar.gz"
 
-  head 'https://github.com/madebymany/moltar.git'
-
   def install
     bin.install "pharod"
     bin.install "pharod-start"

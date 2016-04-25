@@ -2,8 +2,8 @@ require 'formula'
 
 class Pharod < Formula
   homepage 'https://github.com/madebymany/pharod'
-  version '1461149290'
-  sha256 '627615c7533ddd9741609d967059677afb374bf1764dfe1cd6d980764523803b'
+  version '1461577992'
+  sha256 'ea225da64aca80d7abceb9cdb2d9ff0b0e54ac03817217c242c65da9d3c5e859'
   url "https://mxm-golang-binaries.s3.amazonaws.com/pharod/pharod-#{version}.tar.gz"
 
   def install

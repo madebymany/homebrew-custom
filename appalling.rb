@@ -4,7 +4,7 @@ class Appalling < Formula
   homepage 'https://github.com/madebymany/appalling-cmd'
   version '0.5'
   url "https://github.com/madebymany/appalling-cmd/archive/#{version}.tar.gz"
-  sha1 'dced43199b64163c82c392fdc9910fab982c01d0'
+  sha256 '53eb22b886a8a737acc27be12462d05649278b106b01cad220e35d86ea9c9f1c'
 
   head 'git@github.com:madebymany/appalling-cmd.git'
 

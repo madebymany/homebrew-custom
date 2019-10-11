@@ -9,7 +9,7 @@ class Moltar < Formula
   head 'https://github.com/madebymany/moltar.git'
 
   def install
-    system "mv", "moltar-#{version}", "moltar"
+    #system "mv", "moltar-#{version}", "moltar"
     bin.install "moltar"
   end
 
